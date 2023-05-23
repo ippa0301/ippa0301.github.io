@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="pyth.css">
+   <script src="pyth.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="div_main">
+        <h2>pythagoras sats</h2>
+        <div class="inner_div">
+
+            <p>
+                I en rätvinklig triangel finns i samband mellan sidorna som har uppkallats efter en Grekisk matimatiker Pythagora.
+            </p>
+            <p>
+                Formlen gäller rätvinkliga trianglar och kallar de två kortaste sidorna för kateter, och den längsta för hypotinusa.
+            </p>
+            <p>
+                Formeln lyder: <br> katet&sup2; + katet&sup2; = hypotinusa&sup2; 
+            </p>
+
+            <select name="mina_inputs" id="minselect">
+                <option value="katet">du vet längd på båda kateter</option>
+                <option value="hypot">du vet längd på hypotinusa och en katet</option>
+            </select>
+            <br>
+            <input class="mina_inputs" id="input_v1" type="text" maxlength="6" size="6" placeholder="katet" required="true">
+            <input class="mina_inputs" id="input_v2" type="text" maxlength="6" size="6" placeholder="katet" required="true">
+            <button id="kalk_knapp">Beräkna</button>
+
+            <div id="svar_div"></div>
+        </div>
+
+    </div>
+    
+</body>
+</html>

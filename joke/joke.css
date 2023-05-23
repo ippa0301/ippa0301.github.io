@@ -1,0 +1,41 @@
+body{
+    background: linear-gradient(to top, red, orange, yellow, green, blue, purple, hotpink);
+    font-family: 'Great Vibes', cursive;
+    background-repeat: no-repeat;
+}
+
+.div_main{
+    margin: 10%;
+    width: 80%;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.inner_div{
+    margin: 20px;
+}
+h2{
+    margin: 20px;
+}
+
+img{
+    height: 20vh;
+}
+
+button{
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    background-size: 800% auto;
+    animation: rainbow 4s linear infinite;
+    overflow: hidden
+}
+
+@keyframes rainbow {
+  0% {
+    background-position: 0% 50%;
+  }
+  
+  100% {
+    background-position: 100% 50%;
+  }
+}
