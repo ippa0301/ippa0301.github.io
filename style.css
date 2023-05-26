@@ -1,5 +1,8 @@
-body{
+body {
     background-color: hotpink;
+}
+
+.div_main{
     text-align: center;
     font-size: 200px;
     color: white;
@@ -8,4 +11,10 @@ body{
     width: 100%;
     font-family: 'Great Vibes', cursive;
 
+}
+
+.div_text {
+    color: white;
+    font-size: 25px;
+    
 }
